@@ -1,0 +1,122 @@
+body {
+	padding: 60px;
+	background-color: #FAF9F6;
+	font-family: 'Poppins', sans-serif;
+}
+
+.nav li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+}
+
+input {
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.active_listing {
+	margin-top: 40px;
+	background-color: rgba(199, 199, 199, 0.664);
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.active_listing img {
+	max-width: 400px;
+	width: 90%;
+}
+
+.listing_page {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	background-color: rgba(75, 114, 139, 0.685);
+	padding: 25px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.listing_page img {
+	max-width: 400px;
+	width: 90%;
+}
+
+.listing_page p {
+	margin:20px;
+}
+
+.bid_form input{
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+.bid_form label{
+	display: none;
+}
+
+
+textarea {
+	width: 90%;
+	padding: 20px;
+}
+
+.comment_block {
+	width: 90%;
+	margin-top: 40px;
+	background-color: rgba(157, 161, 163, 0.685);
+	padding: 15px;
+	padding-top: 30px;
+	margin-bottom: 20px;
+	border: solid;
+}
+
+.comment_block h6 {
+	font-weight: 600;
+	font-size: 110%;
+	;
+}
+
+.categories ul {
+	list-style: none;
+	margin-top: 30px;
+}
+
+.categories a {
+	color: rgb(11, 22, 54)
+}
+
+button {
+	color: white;
+	background-color: rgb(40, 47, 61);
+	padding: 12px;
+	border: none;
+	border-radius: 5px;
+}
+
+button:hover {
+	opacity: 90%;
+}
+
+.bid_button {
+	margin-top: 60px;
+}
+
+h4.closed_message { 
+	margin: 30px;
+	padding:10px;
+	background-color: rgb(20, 32, 63);
+	color: white;
+	opacity: 70%;
+}
